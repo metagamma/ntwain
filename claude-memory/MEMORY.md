@@ -1,0 +1,3 @@
+- [User profile](user_profile.md) — Dante, scanning apps en español, x86+net462 para drivers TWAIN
+- [Fi6800Scanner project](project_fi6800_scanner.md) — app WinForms para fi-6800 + PaperStream; Fases 0-3 hechas, 4-11 pendientes; ver SESSION_HANDOFF.md
+- [NTwain v3 API quirks](reference_ntwain_v3_quirks.md) — sorpresas del API descubiertas compilando: IsOpen no State, IReadOnly caps, BlankPage enum, GetExtImageInfo IEnumerable, CS0411 con ternario
