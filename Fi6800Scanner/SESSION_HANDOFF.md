@@ -18,6 +18,12 @@ C:\Users\Windows\Documents\git\ntwain\
 ├── NTWAIN_V3_GUIDE.md                 ← guía paso a paso uso NTwain
 ├── NTWAIN_V3_REFERENCE.md             ← referencia exhaustiva (catálogo enums, caps, etc.)
 ├── FI6800_PAPERSTREAM_PLAN.md         ← plan completo del proyecto (FASE 0-11)
+├── claude-memory/                     ← snapshot de memoria persistente de Claude Code
+│   ├── README.md                       (incluye one-liner para re-activar en otra PC)
+│   ├── MEMORY.md
+│   ├── user_profile.md
+│   ├── project_fi6800_scanner.md
+│   └── reference_ntwain_v3_quirks.md
 └── Fi6800Scanner/                     ← ← ESTE PROYECTO
     ├── Fi6800Scanner.sln
     ├── README.md
@@ -488,6 +494,10 @@ LowMemory       → cancelar lote, reducir DPI o usar XferMech.File
 Re-leer este documento + `FI6800_PAPERSTREAM_PLAN.md` + `NTWAIN_V3_REFERENCE.md` antes de cambiar arquitectura.
 
 ---
+
+## 6.5. Setup en una PC nueva
+
+Si esta es la primera vez que abres el repo en esta máquina, **antes** de continuar el desarrollo ejecuta el one-liner que está documentado en `../claude-memory/README.md` (sección "Setup en una PC nueva"). Copia las memorias al directorio que Claude Code lee automáticamente. Sin ese paso, las preferencias del usuario y los API quirks descubiertos no estarán cargados en tu contexto.
 
 ## 7. Build y ejecución
 
